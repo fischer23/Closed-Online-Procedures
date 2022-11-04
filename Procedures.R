@@ -2,7 +2,7 @@
 
 #Input: alpha, gamma, tau, lambda,lags, p, n. 
 
-#alpha: Overall significance level. Number between 0 and 1
+#alpha: Overall significance level. Number between 0 and 1.
 #gamma: Weights for Alpha-Spending. Non-negative n-dimensional vector with sum less than 1.
 #tau:   Used for discarding procedures. n-dimensional vector with values between 0 and 1. Besides, it can be chosen as a fixed number between 0 and 1.
 #lambda:Used for the adaptive procedures. n-dimensional vector with values between 0 and tau_i. Besides, it can be chosen as a fixed number fulfilling these conditions.
