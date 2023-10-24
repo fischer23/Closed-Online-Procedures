@@ -4,5 +4,3 @@ This repository contains all the code used for the simulations in the paper "The
 
 In the aforementioned paper, we introduced a new online closure principle including a condition under which the resulting closed testing procedure is indeed an online multiple testing procedure. We showed that each online procedure with FWER control can be derived by this online closure principle and demonstrated how short-cuts of these online closed procedures can be obtained. This was used to define new online multiple testing procedures with FWER control. In particular, we proposed the closed ADDIS-Spending as an uniform improvement of the ADDIS-Spending procedure (Tian and Ramdas, 2021). 
 
-
-Robertson, D. S., Wildenhain, J., Javanmard, A., & Karp, N. A. (2018). Supporting data for "onlineFDR: an R package to control the false discovery rate for growing data repositories" (1.2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.2396572
