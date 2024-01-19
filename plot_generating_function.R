@@ -19,8 +19,7 @@ mu_N=mu_N   #Conservativeness of null p-values (<0 for conservative null p-value
 #pi_A is defined in the loop below
 
 ###Initialise Hyperparameters
-seq_1_n=seq(1,n,1)
-gamma=6/(pi^2*(seq_1_n^2))
+gamma=6/(pi^2*((1:n)^2))
 alpha=0.2
 tau=0.8
 lambda=0.3
