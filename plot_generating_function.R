@@ -76,8 +76,8 @@ for(j in 1:m){
   D=(hypo[,j]==1 & hypo[,j]==hypo_est)
   power[j]=sum(D)/sum(hypo[,j])
 }
-FWER_Spending[l,b]=mean(V)
-power_Spending[l,b]=mean(power)
+FWER_Spending[l,b]=mean(V,na.rm=TRUE)
+power_Spending[l,b]=mean(power,na.rm=TRUE)
 
 ##Closed ADDIS-Spending
 V=rep(0,m)      #Indicates, whether there was atleast one type 1 error in a trial
@@ -90,8 +90,8 @@ for(j in 1:m){
   D=(hypo[,j]==1 & hypo[,j]==hypo_est)
   power[j]=sum(D)/sum(hypo[,j])
 }
-FWER_cSpending[l,b]=mean(V)
-power_cSpending[l,b]=mean(power)
+FWER_cSpending[l,b]=mean(V,na.rm=TRUE)
+power_cSpending[l,b]=mean(power,na.rm=TRUE)
 
 }
 b=b+1
