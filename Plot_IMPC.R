@@ -1,4 +1,4 @@
-#Used to calculate Table 2 of the paper "The Online Closure Principle"
+#Used to calculate Table 1 of the paper "The Online Closure Principle"
 
 rm(list=ls())
 library(ggplot2)
