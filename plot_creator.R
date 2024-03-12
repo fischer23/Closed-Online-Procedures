@@ -6,6 +6,9 @@ library(patchwork)
 source("OCP_Procedures.R")
 source("plot_generating_function.R")
 
+###Set seed to make the results reproducible
+set.seed(12345)
+
 #Generates Figure 4 of the paper "The Online Closure Principle"
 ggsave("Figure4.pdf", plot=plot_generator(1000,4,0))
 
